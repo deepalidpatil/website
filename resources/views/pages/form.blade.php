@@ -7,10 +7,7 @@
             </div>
         @endif
 
-        <form role="form" 
-        {{-- method="post"  --}}
-        {{-- action="{{route('user-form.store')}}"  --}}
-        id="form_id">
+        <form role="form" method="post" action="{{route('user-form.store')}}" id="form_id">
             @csrf
 
             <div class="col-md-4">

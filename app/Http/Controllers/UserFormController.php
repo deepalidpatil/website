@@ -53,7 +53,7 @@ class UserFormController extends Controller
             \DB::transaction(function () use($info,$data) {
                 UserForm::create( $info );
                 \Mail::to('deepalikolhe4@gmail.com')
-                ->cc('dipali.kolhe51@gmail.com')
+                ->cc('dhananjay@techinsidesystems.com')
                 ->send(new UserMail($data));
             });
         }
