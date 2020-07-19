@@ -1,30 +1,21 @@
 <div id="work" class="portfolio">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-10 col-lg-offset-1 text-center text">
-          <h3>Our Work</h3>
-          <div class="row">
-            <div class="col-md-6 col-sm-6">
-              <div class="portfolio-item"> <a href="#"> <img class="img-portfolio img-responsive" src="images/portfolio-1.jpg"> </a> </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="portfolio-item"> <a href="#"> <img class="img-portfolio img-responsive" src="images/portfolio-2.jpg"> </a> </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="portfolio-item"> <a href="#"> <img class="img-portfolio img-responsive" src="images/portfolio-3.jpg"> </a> </div>
-            </div>
-            <div class="col-md-6 col-sm-6">
-              <div class="portfolio-item"> <a href="#"> <img class="img-portfolio img-responsive" src="images/portfolio-4.jpg"> </a> </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center text">
+        <h3>Our Services</h3>
+
+        <div class="row">
+          <div class="col-md-12col-sm-6">
+            <div class="portfolio-item"> 
+              <a href="#"> <img class="img-portfolio img-responsive" src="images/OUR-SERVICES.png"> </a> 
             </div>
           </div>
-          <!-- /.row (nested) --> 
-          <a href="#" class="view-more">View More Items</a> </div>
-        <!-- /.col-lg-10 --> 
+        </div>
       </div>
-      <!-- /.row --> 
     </div>
-    <!-- /.container --> 
   </div>
+</div>
+
   <div class="testimonials" id="testimonials">
     <div class="container">
       <div class="row">
@@ -58,18 +49,3 @@
       </div>
     </div>
   </div>
-  {{-- <div class="call-to-action">
-    <div class="call-overlay">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-10">
-            <div class="subscribe-text">
-              <h3>Subscribe For Updates</h3>
-              <p>Join our 1000+ subscribers and get access to the latest tools, freebies, product announcements and much more!</p>
-            </div>
-          </div>
-          <div class="col-md-4 text-center"> <a href="#" class="subscribe-button">Subscribe Now</a> </div>
-        </div>
-      </div>
-    </div>
-  </div> --}}
