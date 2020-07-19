@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-md-4"> <span class="copyright">Copyright &copy; Ethereal 2018</span> </div>
+            {{-- <div class="col-md-4"> <span class="copyright">Copyright &copy; Ethereal 2018</span> </div> --}}
             <div class="col-md-4">
                 <ul class="list-inline social-buttons">
                     <li>
@@ -21,7 +21,7 @@
             </div>
             <div class="col-md-4">
                 <ul class="list-inline quicklinks">
-                    <li>Designed by <a href="http://w3template.com">W3 Template</a> </li>
+                    {{-- <li>Designed by <a href="http://w3template.com">W3 Template</a> </li> --}}
                 </ul>
             </div>
         </div>

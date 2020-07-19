@@ -16,7 +16,7 @@
                             <a href="#banner">Home</a>
                         </li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#about">About Us</a>
                         </li>
                         <li>
                             <a href="#work">Services</a>
