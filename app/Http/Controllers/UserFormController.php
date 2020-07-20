@@ -36,7 +36,7 @@ class UserFormController extends Controller
      */
     public function store(Request $request)
     {
-        $info = $this->validate($request, [
+        $validator = $this->validate($request, [
             'name'      =>  'required',
             'email'     =>  'required|email',
             'phone'     =>  'required|numeric',
@@ -50,16 +50,18 @@ class UserFormController extends Controller
             'message'   =>   $request->message
         );
         try{
-            \DB::transaction(function () use($info,$data) {
-                UserForm::create( $info );
+            \DB::transaction(function () use($validator,$data) {
+                UserForm::create( $validator );
                 \Mail::to('deepalikolhe4@gmail.com')
-                ->cc('dhananjay@techinsidesystems.com')
+                // ->cc('dhananjay@techinsidesystems.com')
                 ->send(new UserMail($data));
             });
+            // return response()->with(['success'=>'Thanks for contacting us!.']);
         }
         catch( \Exception $e ){
             \Log::info('UserFormController store() : ' . $e );
         }
+        // return response()->json($validator);
         
         return back()->with('success', 'Thanks for contacting us!');
     }
